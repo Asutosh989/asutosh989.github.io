@@ -177,7 +177,7 @@ ul#nav li a {
 	-ms-transition: color .2s ease-in-out;
 	transition: color .2s ease-in-out;
 }
-
+ul#nav li a:hover{color:rgb(201, 201, 201); }
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
 
@@ -251,7 +251,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #F06000;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -630,6 +630,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
+  font-weight: lighter;
 	font-family: 'opensans-semibold', sans-serif; 
 	color: #D8D8D8;
 }
