@@ -630,6 +630,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
+  font-weight: lighter;
 	font-family: 'opensans-semibold', sans-serif; 
 	color: #D8D8D8;
 }
